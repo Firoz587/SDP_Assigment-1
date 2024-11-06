@@ -1,0 +1,186 @@
+.logo{
+    width: 100px;
+}
+/* .t{
+  color: aliceblue;
+} */
+.banner-container{
+    color: aliceblue;
+}
+.port{
+    color: aliceblue;
+    /* margin-bottom: 500px; */
+}
+.word1{
+    color: aliceblue;
+    /* margin-right: 100%; */
+}
+.word2{
+    color: aliceblue;
+    /* margin-right: 100%; */
+}
+.l1{
+    color: aliceblue;
+}
+.contact-us{
+    /* display: flex; */
+    padding: 50px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 4px 4px 8px gray;
+    text-align: center;
+    width: 75%;
+    height: 50%;
+    /* margin: auto; */
+    margin-top: 30px;
+    /* background-image: url('images/contact-us1.jpg'); */
+}
+.contract-img{
+    display: inline;
+    width: 50px;
+    height: 25px;
+    margin-top: 10px;
+}
+.input-box{
+    padding: 15px;
+    width: 50%;
+    margin-top: 10px;
+    box-shadow: 4px px 8px red;
+}
+.message{
+    width: 53%;
+    height:100px;
+    margin-top:15px;
+    box-shadow: 4px px 8px rgb(161, 13, 13);
+}
+.submit-btn{
+    width: 25%;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-top:20px;
+}
+
+/* Smart Phone Mood */
+/* Responsive styling for tablets and smaller devices */
+@media (max-width: 1024px) {
+    /* Navbar adjustments */
+    nav .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Hero section adjustments */
+    .banner-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-left, .banner-right {
+        padding: 2rem;
+        width: 100%;
+    }
+
+    .banner-right img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Reduce spacing */
+    .service-container, .contract {
+        padding: 2rem;
+    }
+}
+
+/* Responsive styling for smartphones */
+@media (max-width: 768px) {
+    /* Navbar adjustments */
+    nav .navbar-toggler {
+        margin: 0 auto;
+    }
+
+    /* Hero section adjustments */
+    .banner-left h1, .banner-left h6 {
+        font-size: 1.5rem;
+    }
+
+    .banner-left p {
+        font-size: 1rem;
+    }
+
+    /* Banner and image adjustments */
+    .banner-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .banner-left, .banner-right {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .banner-right img {
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    /* Portfolio carousel */
+    .carousel-item img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Expertise and education sections */
+    .contract .banner-left, .contract .banner-right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Adjust form for smaller screens */
+    .contact-us form .input-box,
+    .contact-us form .message,
+    .contact-us form .submit-btn {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+}
+
+/* Adjustments for very small screens */
+@media (max-width: 576px) {
+    /* Navbar items */
+    nav .navbar-nav {
+        text-align: center;
+    }
+
+    /* Adjustments for hero text */
+    .banner-left h1, .banner-left h6 {
+        font-size: 1.25rem;
+    }
+
+    .banner-left p {
+        font-size: 0.9rem;
+    }
+
+    /* Footer adjustments */
+    footer {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    footer i {
+        font-size: 1.25rem;
+        margin: 0.5rem;
+    }
+
+    /* Portfolio items text */
+    .word1 {
+        font-size: 0.8rem;
+    }
+
+    /* Contact form adjustments */
+    .contact-us h1 {
+        font-size: 1.5rem;
+    }
+}

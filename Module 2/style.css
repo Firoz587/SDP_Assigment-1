@@ -1,0 +1,22 @@
+.box{
+    width: 200px;
+    border: 2px solid gray;
+    text-align: center;
+    padding: 50px;
+    margin: 50px 100px;
+}
+.title{
+    display: inline;
+}
+.fox{
+    color: goldenrod;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

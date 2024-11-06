@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- Bootstrap cdn -->
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-dark">
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <img src="images/logo.png" class="logo" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      <section class="banner-container d-flex">
+        <div class="banner-left p-5">
+            <h1 class="tittle1 t">HI!</h1>
+            <h1 class="tittle2 t">I'M MD FIROZ ISLAM</h1>
+            <h6 class="tittle3 t">Software Developer||Software Engineer||Programmer</h6>
+            <p class="mt-3 t tittle4">
+                I am an enthusiastic python developer with knowing some framework for the frontend & backend.
+                I know basic JavaScript & MySQL but basically a MERN Developer. 
+            </p>
+            <i class="fa-brands fa-github gap-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+            <i class="fa-brands fa-linkedin gap-3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+            <i class="fa-brands fa-youtube gap-3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+            <a class="border border-1 bg-white" href="images/Firoz_2.jpg" download="">Resume<i class="fa-solid fa-download"></i></a>
+        </div>
+        <div class="banner-right p-5">
+            <img class="banner-img" src="images/firoz.png" alt="" />
+        </div>
+      </section>
+   </header>
+   <main>
+    <section class="service-container mt-5 p-5">
+       <h1 class="text-center port">Portfolio</h1>
+       <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <div class="banner-card d-flex gap-3">
+            <img src="images/github.png" class="d-block w-50" alt="...">
+           <p class="word1">GitHub is a cloud-based platform where you can store, share, and work together with others to write code.
+            Storing your code in a "repository" on GitHub allows you to: Showcase or share your work. Track and manage changes to your code over time.
+            GitHub is a platform for hosting code that allows for version control and collaboration. It allows you and others to collaborate on projects from anywhere. This lesson will teach you the fundamentals of GitHub, such as repositories, branches, commits, and pull requests. </p>
+           </div>
+          </div>
+          <div class="carousel-item">
+           <div class="banner-card2 d-flex gap-3">
+            <img src="images/web-site.png" class="d-block w-50" alt="...">
+            <p class="word1">
+                A restaurant website is an online platform that showcases a restaurant's menu, ambiance and services. It typically includes information such as location, hours of operation and contact details.
+                A recent study by the industry's information and analytics provider, Restaurant Science, showed that more than half of all independent restaurants surveyed didn't have a website at all. In addition, less than 40% have their menus online.
+            </p>
+           </div>
+          </div>
+          <div class="carousel-item">
+            <div class="banner-card3 d-flex gap-3">
+                <img src="images/cf.png" class="d-block w-50" alt="...">
+                <p class="word1">
+                    Codeforces (Russian: Кодефорсес) is a website that hosts competitive programming contests. It is maintained by a group of competitive programmers from ITMO University led by Mikhail Mirzayanov. Since 2013, Codeforces claims to surpass Topcoder in terms of active contestants.
+                    Thus, two things are known for each participant - his seed (the expected place) and rank (the actual place). Depending on the difference between these two values, your rating increases or decreases. If the difference is higher, your rating changes more.
+                </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="contract us container mt-3">
+     <div class="banner-left d-flex p-2 gap-3">
+        <div class="banner-left p-5 gap-4">
+            <div>
+                <h3 class="word1">Expertice:</h3>
+                <div class="word1 p-2 mr-5">
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>Node.js</li>
+                    <li>Css</li>
+                    <li>Bootstrap</li>
+                </div>
+            </div>
+            <div>
+                <h3 class="word1">Comfortable:</h3>
+                <div class="word1 p-2 mr-5">
+                    <li>MySQL</li>
+                    <li>Redux</li>
+                    <li>AWS</li>
+                    <li>Docker</li>
+                    <li>TypeScrits</li>
+                </div>
+            </div>
+          </div>
+          <div class="banner-left p-5 gap-4">
+            <div>
+                <h3 class="word1">Familiar:</h3>
+                <div class="word1 p-2 mr-5">
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>Spring Boot</li>
+                    <li>Network</li>
+                </div>
+            </div>
+            <div>
+                <h3 class="word1">Tools:</h3>
+                <div class="word1 p-2 mr-5">
+                    <li>VS Code</li>
+                    <li>Jira</li>
+                    <li>Trello</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                </div>
+            </div>
+          </div>
+     </div>
+    <div class="banner-right d-flex p-5 gap-3">
+        <div>
+            <h1 class="word1">My Education:</h1>
+            <div class="word1">
+                <h5>BSc in Computer Science and Engineering</h5>
+                <h5>Northern University Bangladesh</h5>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="contact-us">
+        <h1 class="service-title cn">Contact With Us</h1>
+        <form action="" class="pic">
+          <input
+            class="input-box"
+            type="text"
+            placeholder="Type your Name"
+            required
+          />
+          <input
+            class="input-box"
+            type="email"
+            placeholder="Type your Email"
+            required
+          />
+          <br />
+          <input
+            class="message"
+            type="text"
+            placeholder="type your message.."
+            required
+          />
+          <br />
+          <input class="submit-btn" type="submit" value="SEND" />
+        </form>
+      </section>
+   </main>
+   <footer class="bg-dark text-white text-center border border-1 p-5 d-flex justify-content-around">
+    <div>
+        <h6 class="word1">Copyright @ 2023 | firoz islam</h6>
+        <h6 class="word1">Askona,Airport,Dhaka</h6>
+        <i class="fa-brands fa-github gap-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+        <i class="fa-brands fa-linkedin gap-3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+        <i class="fa-brands fa-youtube gap-3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+    </div>
+   </footer>
+   <!-- Script file cdn -->
+    <div>
+        <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+
+        <!-- <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script> -->
+    </div>
+</body>
+</html>

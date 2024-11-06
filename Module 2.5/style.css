@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+   
+}
+.logo{
+    width: 80px;
+}
+li{
+    list-style:none;
+    font-size:20px;
+}
+li:hover{
+    color:blue;
+    cursor:pointer;
+}
+header{
+    background-image: url('images/bac.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-container{
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+.banner-img{
+    width: 350px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    color: white;
+    /* background-image: url('images/background.avif'); */
+    /* color: white; */
+}
+.banner-left{
+    width: 400px;
+    line-height: 2;
+}
+.btn{
+    padding:15px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.hire-btn{
+background-color: rgb(47, 30, 64);
+}
+.project-btn{
+    background-color: rgb(19, 104, 201);
+}
+.title{
+    font-size: 45px;
+}
+.service-container{
+    margin-top: 30px;
+}
+.service-title{
+    /* display: inline; */
+    margin-top: 30px;
+    font-size: 50px;
+    text-align:center;
+    color: rgb(9, 209, 16);
+}
+.service-card{
+    width: 300px;
+    height:430px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 7px;
+    text-align:center;
+    margin-top: 50px;
+}
+.service-img{
+    width: 250px;
+}
+.service-card-btn{
+    padding: 15px 25px;
+    background-color: rgb(131, 138, 138);
+    border: none;
+    font-size:18px;
+    color: white;
+   
+    /* font-weight: bold; */
+}
+.service-description{
+    margin: 10px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.contact-us{
+    /* display: flex; */
+    padding: 50px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 4px 4px 8px gray;
+    text-align: center;
+    width: 75%;
+    height: 50%;
+    /* margin: auto; */
+    margin-top: 30px;
+    /* background-image: url('images/contact-us1.jpg'); */
+}
+.contract-img{
+    display: inline;
+    width: 50px;
+    height: 25px;
+    margin-top: 10px;
+}
+.input-box{
+    padding: 15px;
+    width: 50%;
+    margin-top: 10px;
+    box-shadow: 4px px 8px red;
+}
+.message{
+    width: 53%;
+    height:100px;
+    margin-top:15px;
+    box-shadow: 4px px 8px rgb(161, 13, 13);
+}
+.submit-btn{
+    width: 25%;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-top:20px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(2, 5, 25, 0.893);
+    color: white;
+    /* margin: auto; */
+    margin-top: 20px;
+    padding: 50px;
+    text-align: center;
+
+}
+.phone{
+    display: inline;
+}
+ @media only screen and (min-width:400px) and (max-width:767px){
+    body{
+        background-color:rgb(68, 66, 57);
+    }
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content:center !important;
+} 
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    body{
+        background-color:rgb(180, 180, 203);
+    }
+    /* .title{
+        color: white;
+        display: none;
+    } */
+}
+
+/* General Styling */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .banner-left {
+    max-width: 50%;
+  }
+  
+  .banner-right {
+    max-width: 50%;
+  }
+  
+  .banner-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Button Styling */
+  .btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .hire-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .project-btn {
+    background-color: #008CBA; /* Blue */
+    color: white;
+  }
+  
+  /* Responsive Styling for Smartphone */
+  @media (max-width: 768px) {
+    .banner-container {
+      flex-direction: column;
+      text-align: center;
+      padding: 15px;
+    }
+  
+    .banner-left, .banner-right {
+      max-width: 100%;
+    }
+  
+    .banner-left h1 {
+      font-size: 24px;
+    }
+  
+    .banner-left h5 {
+      font-size: 18px;
+    }
+  
+    .banner-left p {
+      font-size: 14px;
+    }
+  
+    .btn {
+      width: 80%;
+      margin: 10px auto;
+      font-size: 14px;
+    }
+  
+    .banner-img {
+      width: 60%;
+      margin: 15px auto;
+    }
+  }
+  
